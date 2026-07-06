@@ -1,0 +1,25 @@
+{
+  "python": "python",
+  "run_inference": true,
+  "variants": [
+    {
+      "name": "tot_b1",
+      "infer_cmd": "python main3.py --method tot --branches 1 --results_dir results\\tot_b1",
+      "results_dir": "results\\tot_b1",
+      "eval_out_dir": "eval_out\\tot_b1"
+    },
+    {
+      "name": "tot_b3",
+      "infer_cmd": "python main3.py --method tot --branches 3 --results_dir results\\tot_b3",
+      "results_dir": "results\\tot_b3",
+      "eval_out_dir": "eval_out\\tot_b3"
+    },
+    {
+      "name": "tot_noeval",
+      "infer_cmd": "python main3.py --method tot --branches 3 --disable_self_eval --results_dir results\\tot_noeval",
+      "results_dir": "results\\tot_noeval",
+      "eval_out_dir": "eval_out\\tot_noeval"
+    }
+  ],
+  "eval_cmd_template": "python evaluation.py --results_dir \"{results_dir}\" --out_dir \"{eval_out_dir}\" --method {eval_method}"
+}

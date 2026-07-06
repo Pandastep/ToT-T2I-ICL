@@ -1,0 +1,11 @@
+Copyright (c) 2026 Stepanida Alekseeva, Jenifer Kalafatovich, and Seong-Whan Lee.
+
+This repository is provided for academic research purposes.
+
+If you use this code, please cite the associated paper:
+
+Tree-of-Thoughts Reasoning for Text-to-Image In-Context Learning
+Stepanida Alekseeva, Jenifer Kalafatovich, and Seong-Whan Lee
+Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics, 2026.
+
+This repository does not include the CoBSAT dataset, SEED model weights, Stable Diffusion weights, or any external model checkpoints. Users are responsible for obtaining external dependencies and complying with their respective licenses.

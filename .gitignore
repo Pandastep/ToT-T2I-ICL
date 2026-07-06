@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+conda_env/
+cobsat2_env/
+
+# Data / models / cache
+data/
+datasets/
+models/
+.cache/
+sd-cache/
+
+# Outputs
+results/
+results_*/
+eval_out/
+eval_*/
+outputs/
+logs/
+
+# Large files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.zip
+*.tar
+*.tar.gz
+
+# Local settings / secrets
+.env
+settings.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
