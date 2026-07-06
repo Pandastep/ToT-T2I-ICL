@@ -400,5 +400,4 @@ This repository is provided for academic research purposes. See `LICENSE` for de
 
 ## Acknowledgements
 
-This work builds on the CoBSAT benchmark setting and SEED-based multimodal generation infrastructure. External datasets, checkpoints, and model components remain subject to their original licenses and terms of use.#   T o T - T 2 I - I C L  
- 
+This work builds on the CoBSAT benchmark setting and SEED-based multimodal generation infrastructure. External datasets, checkpoints, and model components remain subject to their original licenses and terms of use.#
